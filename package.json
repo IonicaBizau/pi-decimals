@@ -14,6 +14,7 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
+    "install": "node lib/generate-json.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
