@@ -21,7 +21,8 @@ $ npm i --save pi-decimals
 const pi = require("pi-decimals");
 
 // Get the first 42 digits
-// Note: the `decimals` array doesn't contain "3."
+// Note: the `decimals` array doesn't contain "3.", it only contains digits as
+// numbers
 console.log("3." + pi.decimals.slice(0, 42).join(""))
 // => "3.1415926535897932384626433832795028841971"
 
@@ -63,6 +64,11 @@ However, if you get some profit from this or just want to encourage me to contin
 Thanks! :heart:
 
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`pi`](https://github.com/IonicaBizau/pi-number)—Going deeper inside of the PI number.
 
 ## :scroll: License
 
